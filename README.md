@@ -2,7 +2,7 @@
 
 **Share your geolocations**
 
-![alt text](http://openanonymouslocation.org/img/logov5_256x256.png "OpenAnonymousLocation")
+![alt text](http://openanonymouslocation.org/img/logov5_64x64.png "OpenAnonymousLocation")
 
 # [OpenAnonymousLocation.org](http://openanonymouslocation.org)
 
@@ -15,4 +15,3 @@ Web site based on Start Bootstrap is based on the [Bootstrap](http://getbootstra
  [Start Bootstrap - New Age](https://startbootstrap.com/template-overviews/new-age/)
 
 Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-new-age/blob/gh-pages/LICENSE) license.
-
