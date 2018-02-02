@@ -1,281 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113482073-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113482073-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-113482073-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="OpenAnonymousLocation is a collaborative project to create and share free points based on geolocations">
-    <meta name="author" content="OpenAnonymousLocation">
-    <title>OpenAnonymousLocation</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    gtag('config', 'UA-113482073-1');
+  </script>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="OpenAnonymousLocation is a collaborative project to create and share free points based on geolocations">
+  <meta name="author" content="OpenAnonymousLocation">
+  <title>OpenAnonymousLocation</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
-  </head>
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
 
-  <body id="page-top">
+</head>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="margin-right: 10px;" width='35' src="img/logov5_64x64.png">OpenAnonymousLocation</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" target="_blank" href="api.html">API</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">How it works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img style="margin-right: 10px;" width='35' src="img/logov5_64x64.png">OpenAnonymousLocation</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" target="_blank" href="api.html">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">How it works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <header class="masthead">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h1 class="mb-5"><b>OpenAnonymousLocation</b> is a collaborative Open Source project to publish and visualize geolocations!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start sharing geolocations!</a>
-            </div>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5">
+              <b>OpenAnonymousLocation</b> is a collaborative Open Source project to publish and visualize geolocations!</h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start sharing geolocations!</a>
           </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="device-mockup galaxy_s5 portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <div class="device-mockup galaxy_s5 portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="img/demo-screen-1.png" class="img-fluid" alt="">
 
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="download bg-primary text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Share your GPS data anonymously!</h2>
-            <p>
-			<a style="color:#0000ff" href="app/openanonymouslocation-v1.apk">
-			Download the app now to get started!
-			
-			</a>
-			</p>
-            <div class="badges">
-			
-              <a class="badge-link" href="app/openanonymouslocation-v1.apk">
-			  <img src="img/Android1.png" alt="">
-			  
-			  
-			  </a>
-              <!--
+  <section class="download bg-primary text-center" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="section-heading">Share your GPS data anonymously!</h2>
+          <p>
+            <a style="color:#0000ff" href="app/openanonymouslocation-v1.apk">
+              Download the app now to get started!
+
+            </a>
+          </p>
+          <div class="badges">
+
+            <a class="badge-link" href="app/openanonymouslocation-v1.apk">
+              <img src="img/Android1.png" alt="">
+
+
+            </a>
+            <!--
 			  <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
 			  -->
-            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Publish,access and download all shared geolocations for free</h2>
-          <p class="text-muted">Check out what you can do with this app!</p>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-			
-			
-			
-			
-              <div class="device-mockup galaxy_s5 portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <video style="width: 100%; height: 100%;" controls>
-					<source src="video/video_app_mobil.mp4" type="video/mp4"> 
-					Your browser does not support HTML5 video.
-					</video>
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Publish,access and download all shared geolocations for free</h2>
+        <p class="text-muted">Check out what you can do with this app!</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 my-auto">
+          <div class="device-container">
+
+
+
+
+            <div class="device-mockup galaxy_s5 portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <video style="width: 100%; height: 100%;" controls>
+                    <source src="video/video_app_mobil.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+                  </video>
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Install the App</h3>
-                    <p class="text-muted">
-					 <a target="_blank" href="app/openanonymouslocation-v1.apk">
-					Capture and share your geolocations
-					</a>
-					</p>
-                  </div>
+        </div>
+        <div class="col-lg-8 my-auto">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-screen-smartphone text-primary"></i>
+                  <h3>Install the App</h3>
+                  <p class="text-muted">
+                    <a target="_blank" href="app/openanonymouslocation-v1.apk">
+                      Capture and share your geolocations
+                    </a>
+                  </p>
                 </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-location-pin text-primary"></i>
-                    <h3>API Use</h3>
-                    <p class="text-muted">
-                      <a target="_blank" href="api.html">
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-location-pin text-primary"></i>
+                  <h3>API Use</h3>
+                  <p class="text-muted">
+                    <a target="_blank" href="api.html">
                       View API Reference and samples
-                      </a>
-                      </p>
-                  </div>
+                    </a>
+                  </p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">Download, copy re-use all data. Event for a comercial use!</p>
-                  </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-graph text-primary"></i>
+                  <h3>Visualize geolocations</h3>
+                  <p class="text-muted">
+                    <a target="_blank" href="http://openanonymouslocation.org/vectormap.html?device=demo-openanonymouslocation-web">
+                      Develope amazing point visualizations
+                    </a>
+                  </p>
                 </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">
-                      <a target="_blank" href="https://github.com/openanonymouslocation">
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-lock-open text-primary"></i>
+                  <h3>Open Source</h3>
+                  <p class="text-muted">
+                    <a target="_blank" href="https://github.com/openanonymouslocation">
                       All code is in GitHub
-                      </a>
-                      </p>
-                  </div>
+                    </a>
+                  </p>
                 </div>
-
-				 <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-graph text-primary"></i>
-                    <h3>Visualize geolocations</h3>
-                    <p class="text-muted">
-					<a target="_blank" href="http://openanonymouslocation.org/vectormap.html?device=demo-openanonymouslocation-web">
-					
-					Develope amazing point visualizations
-					
-					</a>
-					</p>
-                  </div>
-                </div>
-
-
               </div>
+
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-present text-primary"></i>
+                  <h3>Free to Use</h3>
+                  <p class="text-muted">Download, copy re-use all data. Event for a comercial use!</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h2>Stop waiting.<br>Start geolocating.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started sharing your geolocations!</a>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
-
-    <section class="contact bg-primary" id="contact">
+  <section class="cta">
+    <div class="cta-content">
       <div class="container">
-        <h2>Join
-          <i class="fa fa-cloud"></i>
-         us!</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-github">
-            <a target="_blank" href="https://github.com/openanonymouslocation/">
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-
-        </ul>
+        <h2>Stop waiting.
+          <br>Start geolocating.</h2>
+        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started sharing your geolocations!</a>
       </div>
-    </section>
+    </div>
+    <div class="overlay"></div>
+  </section>
 
-    <footer>
-      <div class="container">
-        <p>&copy; 2017 Start Bootstrap. All Rights Reserved.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h2>Join
+        <i class="fa fa-cloud"></i>
+        us!</h2>
+      <ul class="list-inline list-social">
+        <li class="list-inline-item social-twitter">
+          <a target="_blank" href="https://twitter.com/OpenALocation">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-github">
+          <a target="_blank" href="https://github.com/openanonymouslocation/">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
 
-        </ul>
-      </div>
-    </footer>
+      </ul>
+    </div>
+  </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <footer>
+    <div class="container">
+      <p>&copy; 2017 Start Bootstrap. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">FAQ</a>
+        </li>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      </ul>
+    </div>
+  </footer>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/oal-web.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/oal-web.min.js"></script>
+
+</body>
 
 </html>
